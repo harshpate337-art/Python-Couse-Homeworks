@@ -1,10 +1,8 @@
-# Hemoglobin level checker
 
-# Ask for biological gender and hemoglobin level
 gender = input("Enter your biological gender (male/female): ").lower()
 hemoglobin = float(input("Enter your hemoglobin level (g/L): "))
 
-# Check and print the result based on gender
+
 if gender == "female":
     if hemoglobin < 117:
         print("Your hemoglobin level is low.")
