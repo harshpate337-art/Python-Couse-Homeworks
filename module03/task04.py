@@ -1,4 +1,6 @@
+# Leap year checker
 
+# Ask the user for a year
 year = int(input("Enter a year: "))
 
 # Determine if it's a leap year
