@@ -1,9 +1,7 @@
-# Cruise ship cabin class description program
 
-# Ask the user for the cabin class
 cabin_class = input("Enter the cabin class (LUX, A, B, C): ").upper()
 
-# Determine and print the cabin description
+
 if cabin_class == "LUX":
     print("Upper-deck cabin with a balcony.")
 elif cabin_class == "A":

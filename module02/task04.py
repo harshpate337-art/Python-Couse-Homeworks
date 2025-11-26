@@ -1,14 +1,11 @@
-# Ask the user for three integer numbers
-num1 = int(input("Enter the first integer: "))
-num2 = int(input("Enter the second integer: "))
-num3 = int(input("Enter the third integer: "))
+# Ask the user for the length and width of the rectangle
+length = float(input("Enter the length of the rectangle: "))
+width = float(input("Enter the width of the rectangle: "))
 
-# Calculate sum, product, and average
-sum_numbers = num1 + num2 + num3
-product = num1 * num2 * num3
-average = sum_numbers / 3
+# Calculate the perimeter and area
+perimeter = 2 * (length + width)
+area = length * width
 
 # Print the results
-print(f"The sum is {sum_numbers}")
-print(f"The product is {product}")
-print(f"The average is {average:.2f}")
+print(f"The perimeter of the rectangle is {perimeter:.2f}")
+print(f"The area of the rectangle is {area:.2f}")
